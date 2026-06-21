@@ -1,53 +1,123 @@
-# MERN-style Portfolio (Next.js + MongoDB)
+# 🚀 Ehtisham Ali - Portfolio
 
-A developer portfolio with a public site and a hidden admin panel for managing all content
-(hero text, photo, CV, skills, experience, projects, contact links) — no redeploy needed to update content.
+A modern and responsive developer portfolio built with **Next.js**, showcasing my skills, projects, experience, and contact information.
 
-## Stack
-- **Next.js 14** (App Router) — frontend + API routes (replaces a separate Express server)
-- **MongoDB** with **Mongoose** — database
-- **JWT + httpOnly cookies** — admin authentication
-- **bcryptjs** — password hashing
+## 🌐 Live Demo
 
-## 1. Install dependencies
+Add your deployed website link here:
+
+```text
+https://your-portfolio-url.com
 ```
+
+## 📸 Preview
+
+Add a screenshot of your portfolio inside the project and update the path below:
+
+```md
+![Portfolio Preview](./public/preview.png)
+```
+
+## ✨ Features
+
+* Responsive design for all devices
+* Modern UI/UX
+* Dark/Light theme support
+* Projects showcase section
+* Skills section
+* Contact form
+* Fast performance with Next.js
+* SEO-friendly structure
+
+## 🛠️ Tech Stack
+
+* Next.js
+* React.js
+* JavaScript
+* Tailwind CSS
+* MongoDB
+* Node.js
+* Git & GitHub
+
+## 📂 Project Structure
+
+```text
+├── public
+├── src
+│   ├── app
+│   ├── components
+│   ├── data
+│   ├── lib
+│   └── styles
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ehtishamali481-cpu/portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
-## 2. Set up environment variables
-Copy `.env.example` to `.env.local` and fill in:
-```
-MONGODB_URI=your MongoDB Atlas (or local) connection string
-JWT_SECRET=a long random string
-ADMIN_EMAIL=the email you'll log in with
-ADMIN_PASSWORD=a strong password
-```
+Run the development server:
 
-## 3. Create your admin account
-This runs once to create the only admin account, using ADMIN_EMAIL / ADMIN_PASSWORD above:
-```
-npm run seed
-```
-
-## 4. Run the app
-```
+```bash
 npm run dev
 ```
-- Public site: http://localhost:3000
-- Admin login (NOT linked anywhere on the public site): http://localhost:3000/admin/login
 
-## How content management works
-- Everything (hero text, photo, CV link, skills, experience, projects, contact links) lives in MongoDB.
-- Log in at `/admin/login` with the account you seeded.
-- `/admin/dashboard` is protected by middleware — visiting it without a valid session redirects to the login page.
-- Edits save immediately to the database and appear on the public homepage on refresh (no rebuild/redeploy required).
+Build for production:
 
-## Notes on images & the CV file
-This starter stores **URLs** for the photo, CV, and project screenshots (not file uploads), so you have two options:
-1. Upload images/PDFs somewhere like Cloudinary, Imgur, or your own storage, and paste the URL into the admin dashboard.
-2. Add a file upload route later (e.g. using Cloudinary's API) if you'd like in-dashboard uploads instead of URLs — happy to add this if needed.
+```bash
+npm run build
+```
 
-## Deploying
-This is a standard Next.js app — deploys cleanly to Vercel. Add the same environment variables
-(`MONGODB_URI`, `JWT_SECRET`) in your hosting provider's dashboard, and use a MongoDB Atlas
-connection string (rather than `localhost`) so the database is reachable from production.
+Start production server:
+
+```bash
+npm start
+```
+
+## 👨‍💻 About Me
+
+I am **Ehtisham Ali**, a MERN Stack Developer passionate about building modern, responsive, and user-friendly web applications.
+
+### Skills
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* React.js
+* Next.js
+* Node.js
+* Express.js
+* MongoDB
+* Git & GitHub
+
+## 📫 Contact
+
+* Email: [your-email@example.com](mailto:your-email@example.com)
+* LinkedIn: https://linkedin.com/in/your-profile
+* GitHub: https://github.com/ehtishamali481-cpu
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to star the repository.
