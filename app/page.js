@@ -1,4 +1,4 @@
-import { connectDB } from "@/lib/mongodb";
+import connectDB from "@/lib/mongodb";
 import SiteContent from "@/models/SiteContent";
 import Skill from "@/models/Skill";
 import Experience from "@/models/Experience";
