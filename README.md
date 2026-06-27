@@ -7,15 +7,14 @@ A modern and responsive developer portfolio built with **Next.js**, showcasing m
 Add your deployed website link here:
 
 ```text
-https://your-portfolio-url.com
+https://portfolio-seven-xi-cop03bjsqb.vercel.app/
 ```
 
 ## 📸 Preview
-
-Add a screenshot of your portfolio inside the project and update the path below:
-
 ```md
-![Portfolio Preview](./public/preview.png)
+<img width="943" height="476" alt="image" src="https://github.com/user-attachments/assets/5ee1ab10-5744-41b2-85c5-37f354e95d98" />
+
+
 ```
 
 ## ✨ Features
@@ -110,8 +109,7 @@ I am **Ehtisham Ali**, a MERN Stack Developer passionate about building modern, 
 
 ## 📫 Contact
 
-* Email: [your-email@example.com](mailto:your-email@example.com)
-* LinkedIn: https://linkedin.com/in/your-profile
+* Email: [webexpress987@gmail.com](mailto:webexpress987@gmail.com)
 * GitHub: https://github.com/ehtishamali481-cpu
 
 ## 📄 License
